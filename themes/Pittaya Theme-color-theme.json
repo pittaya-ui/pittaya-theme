@@ -178,6 +178,18 @@
 			}
 		},
 		{
+			"name": "Control Flow Keywords",
+			"scope": [
+				"keyword.control.conditional",
+				"keyword.control.flow",
+				"keyword.control.return",
+				"keyword.control.loop"
+			],
+			"settings": {
+				"foreground": "#ff637e"
+			}
+		},
+		{
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
