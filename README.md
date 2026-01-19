@@ -1,16 +1,29 @@
-# pittaya-theme README
+# Pittaya Theme
 
-## Working with Markdown
+Um tema dark minimalista para VS Code com a cor característica da Pittaya.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Características
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- **Design Minimalista**: Interface limpa e focada no código
+- **Dark Theme**: Paleta de cores escuras para reduzir fadiga visual
+- **Cor Característica**: Destaques em #ff637e, a cor da Pittaya
+- **Alta Legibilidade**: Contraste otimizado entre texto e fundo
+- **Sintaxe Suave**: Cores cuidadosamente selecionadas para diferentes elementos de código
 
-## For more information
+## Paleta de Cores Principal
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- **Background**: `#1a1a1a` - Fundo escuro profundo
+- **Foreground**: `#e0e0e0` - Texto claro e legível
+- **Accent**: `#ff637e` - Cor característica da Pittaya
+- **Secondary**: `#ff9eb3` - Variação suave do accent
+- **Comments**: `#606060` - Comentários discretos
 
-**Enjoy!**
+## Instalação
+
+1. Abra o VS Code
+2. Vá para Extensions (Ctrl+Shift+X)
+3. Procure por "Pittaya Theme"
+4. Clique em Install
+5. Selecione o tema em File > Preferences > Color Theme
+
+**Aproveite o Pittaya Theme!**
