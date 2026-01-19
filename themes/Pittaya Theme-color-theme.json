@@ -3,22 +3,22 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#1a1a1a",
-		"editor.foreground": "#e0e0e0",
-		"editor.lineHighlightBackground": "#242424",
-		"editor.selectionBackground": "#ff637e30",
-		"editor.inactiveSelectionBackground": "#ff637e15",
-		"editor.wordHighlightBackground": "#ff637e20",
-		"editor.wordHighlightStrongBackground": "#ff637e30",
-		"editor.findMatchBackground": "#ff637e40",
-		"editor.findMatchHighlightBackground": "#ff637e20",
+		"editor.foreground": "#e8e8e8",
+		"editor.lineHighlightBackground": "#252525",
+		"editor.selectionBackground": "#ff637e35",
+		"editor.inactiveSelectionBackground": "#ff637e18",
+		"editor.wordHighlightBackground": "#ff637e25",
+		"editor.wordHighlightStrongBackground": "#ff637e35",
+		"editor.findMatchBackground": "#ff637e45",
+		"editor.findMatchHighlightBackground": "#ff637e25",
 		"editorCursor.foreground": "#ff637e",
-		"editorLineNumber.foreground": "#404040",
+		"editorLineNumber.foreground": "#4a4a4a",
 		"editorLineNumber.activeForeground": "#ff637e",
-		"editorBracketMatch.background": "#ff637e20",
-		"editorBracketMatch.border": "#ff637e",
-		"editorIndentGuide.background": "#2a2a2a",
-		"editorIndentGuide.activeBackground": "#ff637e40",
-		"editorWhitespace.foreground": "#2a2a2a",
+		"editorBracketMatch.background": "#8fd46025",
+		"editorBracketMatch.border": "#8fd460",
+		"editorIndentGuide.background1": "#2d2d2d",
+		"editorIndentGuide.activeBackground1": "#8fd46040",
+		"editorWhitespace.foreground": "#2d2d2d",
 		"sideBar.background": "#151515",
 		"sideBar.foreground": "#b0b0b0",
 		"sideBarSectionHeader.background": "#1a1a1a",
@@ -134,7 +134,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#606060"
+				"foreground": "#707070"
 			}
 		},
 		{
@@ -144,7 +144,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#e0e0e0"
+				"foreground": "#f0f0f0"
 			}
 		},
 		{
@@ -194,7 +194,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#b0b0b0"
+				"foreground": "#c5c5c5"
 			}
 		},
 		{
@@ -218,7 +218,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#a0a0a0"
+				"foreground": "#8fd460"
 			}
 		},
 		{
@@ -227,7 +227,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#e0e0e0"
+				"foreground": "#f0f0f0"
 			}
 		},
 		{
@@ -253,7 +253,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#ff9eb3"
+				"foreground": "#ffb3cc"
 			}
 		},
 		{
@@ -268,7 +268,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#c0c0c0"
+				"foreground": "#ffcc66"
 			}
 		},
 		{
@@ -293,7 +293,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#a0a0a0"
+				"foreground": "#b8e986"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#b0b0b0"
+				"foreground": "#8fd460"
 			}
 		},
 		{
@@ -338,7 +338,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#a0a0a0"
+				"foreground": "#8fd460"
 			}
 		},
 		{
@@ -348,7 +348,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#a0a0a0"
+				"foreground": "#8fd460"
 			}
 		},
 		{
@@ -357,7 +357,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#b0b0b0"
+				"foreground": "#b8e986"
 			}
 		},
 		{
@@ -368,7 +368,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#b0b0b0"
+				"foreground": "#b8e986"
 			}
 		},
 		{
@@ -396,6 +396,170 @@
 			],
 			"settings": {
 				"foreground": "#50fa7b"
+			}
+		},
+		{
+			"name": "TypeScript/React - JSX Component",
+			"scope": [
+				"support.class.component",
+				"support.class.component.tsx",
+				"support.class.component.jsx"
+			],
+			"settings": {
+				"foreground": "#ff637e",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "TypeScript - Types and Interfaces",
+			"scope": [
+				"entity.name.type.ts",
+				"entity.name.type.tsx",
+				"entity.name.type.interface.ts",
+				"entity.name.type.interface.tsx",
+				"support.type.primitive.ts",
+				"support.type.primitive.tsx"
+			],
+			"settings": {
+				"foreground": "#b8e986"
+			}
+		},
+		{
+			"name": "TypeScript - Type Parameters",
+			"scope": [
+				"entity.name.type.parameter.ts",
+				"entity.name.type.parameter.tsx"
+			],
+			"settings": {
+				"foreground": "#8fd460"
+			}
+		},
+		{
+			"name": "TypeScript - Import/Export",
+			"scope": [
+				"keyword.control.import.ts",
+				"keyword.control.import.tsx",
+				"keyword.control.export.ts",
+				"keyword.control.export.tsx",
+				"keyword.control.from.ts",
+				"keyword.control.from.tsx"
+			],
+			"settings": {
+				"foreground": "#ff637e",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "JSX - Tag Names",
+			"scope": [
+				"entity.name.tag.tsx",
+				"entity.name.tag.jsx",
+				"support.class.component.tsx",
+				"support.class.component.jsx"
+			],
+			"settings": {
+				"foreground": "#ff637e"
+			}
+		},
+		{
+			"name": "JSX - Attributes",
+			"scope": [
+				"entity.other.attribute-name.tsx",
+				"entity.other.attribute-name.jsx"
+			],
+			"settings": {
+				"foreground": "#b8e986",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "JSX - Embedded Expressions",
+			"scope": [
+				"meta.embedded.expression.tsx",
+				"meta.embedded.expression.jsx",
+				"punctuation.section.embedded.begin.tsx",
+				"punctuation.section.embedded.end.tsx",
+				"punctuation.section.embedded.begin.jsx",
+				"punctuation.section.embedded.end.jsx"
+			],
+			"settings": {
+				"foreground": "#8fd460"
+			}
+		},
+		{
+			"name": "React Hooks",
+			"scope": [
+				"variable.other.readwrite.alias.ts",
+				"variable.other.readwrite.alias.tsx"
+			],
+			"settings": {
+				"foreground": "#8fd460"
+			}
+		},
+		{
+			"name": "TypeScript - Const, Let, Var Keywords",
+			"scope": [
+				"storage.type.ts",
+				"storage.type.tsx",
+				"keyword.control.as.ts",
+				"keyword.control.as.tsx"
+			],
+			"settings": {
+				"foreground": "#ff637e"
+			}
+		},
+		{
+			"name": "JSX/TSX - Self Closing Tags",
+			"scope": [
+				"punctuation.definition.tag.end.tsx",
+				"punctuation.definition.tag.end.jsx",
+				"punctuation.definition.tag.begin.tsx",
+				"punctuation.definition.tag.begin.jsx"
+			],
+			"settings": {
+				"foreground": "#c5c5c5"
+			}
+		},
+		{
+			"name": "Template Literals",
+			"scope": [
+				"string.template.ts",
+				"string.template.tsx",
+				"string.template.js",
+				"string.template.jsx"
+			],
+			"settings": {
+				"foreground": "#ffcc66"
+			}
+		},
+		{
+			"name": "Template Literal Expressions",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end"
+			],
+			"settings": {
+				"foreground": "#8fd460"
+			}
+		},
+		{
+			"name": "TypeScript - Arrow Functions",
+			"scope": [
+				"storage.type.function.arrow.ts",
+				"storage.type.function.arrow.tsx"
+			],
+			"settings": {
+				"foreground": "#ff637e"
+			}
+		},
+		{
+			"name": "TypeScript - Object Keys",
+			"scope": [
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.tsx"
+			],
+			"settings": {
+				"foreground": "#f0f0f0"
 			}
 		},
 		{
