@@ -1,0 +1,21 @@
+{
+  "name": "pittaya-theme",
+  "displayName": "Pittaya Theme",
+  "description": "A theme inspired by the pittaya fruit.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.108.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pittaya Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pittaya Theme-color-theme.json"
+      }
+    ]
+  }
+}
