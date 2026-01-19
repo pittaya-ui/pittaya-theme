@@ -3,54 +3,30 @@
   "displayName": "Pittaya Theme",
   "description": "A minimalist dark theme for VS Code inspired by the vibrant colors of dragon fruit",
   "version": "0.0.2",
-  "publisher": "Pittaya",
-  "author": {
-    "name": "Pittaya"
-  },
-  "license": "MIT",
+  "publisher": "pittaya-org",
   "engines": {
-    "vscode": "^1.108.1"
+    "vscode": "^1.80.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "keywords": [
     "theme",
     "dark",
     "pittaya",
-    "pitaya",
     "dragon fruit",
-    "pink",
-    "green",
-    "react",
-    "typescript",
-    "minimalist",
     "color-theme"
   ],
   "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#1a1a1a",
-    "theme": "dark"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pittaya-ui/pittaya-theme.git"
+    "url": "https://github.com/pittaya-ui/pittaya-theme"
   },
-  "bugs": {
-    "url": "https://github.com/pittaya-ui/pittaya-theme/issues"
-  },
-  "homepage": "https://github.com/pittaya-ui/pittaya-theme#readme",
   "contributes": {
     "themes": [
       {
-        "label": "Pittaya Theme",
+        "label": "Pittaya Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Pittaya Theme-color-theme.json"
+        "path": "./themes/pittaya-dark.json"
       }
     ]
-  },
-  "scripts": {
-    "package": "vsce package",
-    "publish": "vsce publish"
   }
 }
