@@ -39,9 +39,9 @@ Check if the following elements are in **light green** (`#b8e986`):
 
 Check if the following elements are in **pink** (`#ff637e`):
 - [ ] Keywords (`import`, `export`, `const`, `let`, `async`, `await`)
+- [ ] Control flow keywords (`if`, `else`, `return`, `for`, `while`, `do`, `break`, `continue`)
 - [ ] JSX tags (e.g., `<motion.div>`, `<button>`)
 - [ ] Class and component names
-- [ ] Flow control keywords
 
 ### ✅ Yellow Elements (Strings)
 

@@ -4,7 +4,7 @@
 
 ### A minimalist dark theme for VS Code inspired by the vibrant colors of dragon fruit
 
-[![Version](https://img.shields.io/badge/version-0.0.1-ff637e.svg?style=flat-square)](package.json)
+[![Version](https://img.shields.io/badge/version-0.0.2-ff637e.svg?style=flat-square)](package.json)
 [![Status](https://img.shields.io/badge/status-work%20in%20progress-yellow.svg?style=flat-square)](https://github.com)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 

@@ -25,6 +25,7 @@
 ### 🌸 Pittaya Pink (`#ff637e`)
 **Usage**: Main elements and keywords
 - Keywords (`import`, `export`, `const`, `let`, `var`, `function`, `async`, `await`)
+- Control flow keywords (`if`, `else`, `return`, `for`, `while`, `do`, `break`, `continue`)
 - JSX/HTML Tags (`<div>`, `<Component>`)
 - React classes and components
 - Storage types
@@ -110,13 +111,19 @@ export function UserCard({ name, age }: UserProps) {
   const [isActive, setIsActive] = useState(true);
   // ↑ pink  ↑ white    ↑ white      ↑ green    ↑ light pink
 
-  return (
-    <div className="card">
-      <h1>{name}</h1>
-      //  ↑ green (expression)
-      <p>Age: {age}</p>
-    </div>
-  );
+  if (isActive) {
+  // ↑ pink
+    return (
+    // ↑ pink
+      <div className="card">
+        <h1>{name}</h1>
+        //  ↑ green (expression)
+        <p>Age: {age}</p>
+      </div>
+    );
+  }
+  return null;
+  // ↑ pink
 }
 ```
 

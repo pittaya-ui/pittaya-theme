@@ -5,6 +5,17 @@ All notable changes to Pittaya Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.2] - 2026-01-19
+
+### Fixed
+- **Control flow keywords now properly colored** — Fixed `if`, `else`, `return`, `for`, `while`, and other control flow keywords to use the signature Pittaya pink (`#ff637e`) instead of appearing in white/gray
+- Added specific scope rules for `keyword.control.conditional`, `keyword.control.flow`, `keyword.control.return`, and `keyword.control.loop`
+- Reordered tokenColor rules to prioritize control flow keywords over generic keyword.control scope
+
+### Technical Details
+- Created new "Control Flow Keywords" rule that takes precedence over the generic "Operator, Misc" rule
+- This ensures better visual consistency with other keywords like `const`, `let`, `function`, etc.
+
 ## [Unreleased]
 
 ### Added
