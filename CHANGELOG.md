@@ -12,9 +12,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added specific scope rules for `keyword.control.conditional`, `keyword.control.flow`, `keyword.control.return`, and `keyword.control.loop`
 - Reordered tokenColor rules to prioritize control flow keywords over generic keyword.control scope
 
+### Added
+- **Semantic Token Colors** — Added comprehensive semantic highlighting support for better syntax accuracy
+  - Variables: `#f0f0f0` (readonly: `#ffb3cc`)
+  - Functions and methods: `#8fd460`
+  - Classes: `#ff637e`
+  - Interfaces and types: `#b8e986`
+  - Parameters: `#ffb3cc`
+  - And many more semantic tokens
+- **Complete package.json metadata** for marketplace publishing
+  - Publisher field
+  - Repository links
+  - Keywords for better discoverability
+  - Gallery banner configuration
+  - Build scripts
+- **MIT License file** — Official license documentation
+- **Icon placeholder** — Instructions for creating extension icon
+
+### Changed
+- Updated `.vscodeignore` to optimize package size
+- Description now in English for wider reach
+
 ### Technical Details
 - Created new "Control Flow Keywords" rule that takes precedence over the generic "Operator, Misc" rule
 - This ensures better visual consistency with other keywords like `const`, `let`, `function`, etc.
+- Semantic highlighting provides more accurate colors based on code context rather than just syntax
 
 ## [Unreleased]
 

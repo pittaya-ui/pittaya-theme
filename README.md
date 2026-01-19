@@ -28,6 +28,7 @@ We're working hard to create the perfect minimalist dark theme. Feel free to clo
 - **Eye-Comfort Dark Theme** — Carefully crafted dark palette to reduce eye strain
 - **Signature Pittaya Color** — Distinctive `#ff637e` accents inspired by dragon fruit
 - **Optimized for React/TypeScript** — Enhanced syntax highlighting for modern web development
+- **Semantic Highlighting** — Advanced token colors for more accurate syntax representation
 - **Green Accents** — Fresh `#8fd460` green inspired by dragon fruit leaves
 - **Excellent Readability** — High contrast colors for better code comprehension
 - **Refined Syntax Highlighting** — Thoughtfully selected colors for different code elements
@@ -77,8 +78,10 @@ Since this theme is not yet published, you can test it locally:
 - [x] Enhanced TypeScript/TSX syntax highlighting
 - [x] Optimized color scheme for React development
 - [x] Green accent colors inspired by dragon fruit leaves
+- [x] Semantic token colors for advanced highlighting
+- [ ] Create extension icon
+- [ ] Add screenshots and preview images
 - [ ] Complete syntax highlighting for all major languages
-- [ ] Add semantic token colors
 - [ ] Create light theme variant
 - [ ] Publish to VS Code Marketplace
 - [ ] Add theme customization options

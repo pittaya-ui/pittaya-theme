@@ -1,4 +1,12 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.gitattributes
 vsc-extension-quickstart.md
+TESTING.md
+COLOR-GUIDE.md
+*.md
+!README.md
+!CHANGELOG.md
+.git/**
+node_modules/**

@@ -1,6 +1,7 @@
 {
 	"name": "Pittaya Theme",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"editor.background": "#1a1a1a",
 		"editor.foreground": "#e8e8e8",
@@ -919,5 +920,86 @@
 				"foreground": "#e0e0e0"
 			}
 		}
-	]
+	],
+	"semanticTokenColors": {
+		"variable": {
+			"foreground": "#f0f0f0"
+		},
+		"variable.readonly": {
+			"foreground": "#ffb3cc"
+		},
+		"variable.defaultLibrary": {
+			"foreground": "#ff637e"
+		},
+		"parameter": {
+			"foreground": "#ffb3cc"
+		},
+		"function": {
+			"foreground": "#8fd460"
+		},
+		"function.defaultLibrary": {
+			"foreground": "#8fd460"
+		},
+		"method": {
+			"foreground": "#8fd460"
+		},
+		"class": {
+			"foreground": "#ff637e"
+		},
+		"class.defaultLibrary": {
+			"foreground": "#ff637e"
+		},
+		"interface": {
+			"foreground": "#b8e986"
+		},
+		"type": {
+			"foreground": "#b8e986"
+		},
+		"typeParameter": {
+			"foreground": "#8fd460"
+		},
+		"enum": {
+			"foreground": "#ff637e"
+		},
+		"enumMember": {
+			"foreground": "#ffb3cc"
+		},
+		"property": {
+			"foreground": "#f0f0f0"
+		},
+		"property.readonly": {
+			"foreground": "#ffb3cc"
+		},
+		"namespace": {
+			"foreground": "#ff637e"
+		},
+		"macro": {
+			"foreground": "#ff637e"
+		},
+		"keyword": {
+			"foreground": "#ff637e"
+		},
+		"string": {
+			"foreground": "#ffcc66"
+		},
+		"number": {
+			"foreground": "#ffb3cc"
+		},
+		"regexp": {
+			"foreground": "#ff9eb3"
+		},
+		"operator": {
+			"foreground": "#c5c5c5"
+		},
+		"comment": {
+			"foreground": "#707070",
+			"fontStyle": "italic"
+		},
+		"decorator": {
+			"foreground": "#ff637e"
+		},
+		"label": {
+			"foreground": "#ff637e"
+		}
+	}
 }
