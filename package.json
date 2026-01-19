@@ -35,10 +35,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/pittaya-ui/pittaya-theme.git"
-    },
-    "bugs": {
-      "url": "https://github.com/your-username/pittaya-theme/issues"
-    },
+  },
+  "bugs": {
+    "url": "https://github.com/pittaya-ui/pittaya-theme/issues"
+  },
   "homepage": "https://github.com/pittaya-ui/pittaya-theme#readme",
   "contributes": {
     "themes": [
