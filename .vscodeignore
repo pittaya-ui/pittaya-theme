@@ -10,3 +10,4 @@ COLOR-GUIDE.md
 !CHANGELOG.md
 .git/**
 node_modules/**
+*.vsix

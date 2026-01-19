@@ -27,11 +27,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Gallery banner configuration
   - Build scripts
 - **MIT License file** — Official license documentation
-- **Icon placeholder** — Instructions for creating extension icon
+- **Extension icon** — Beautiful pitaya-inspired logo (128x128px)
+- **Real screenshot** — Added actual theme preview in `assets/screenshot.png`
 
 ### Changed
 - Updated `.vscodeignore` to optimize package size
 - Description now in English for wider reach
+- README now displays real screenshot instead of placeholder
 
 ### Technical Details
 - Created new "Control Flow Keywords" rule that takes precedence over the generic "Operator, Misc" rule

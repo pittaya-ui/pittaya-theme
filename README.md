@@ -8,7 +8,7 @@
 [![Status](https://img.shields.io/badge/status-work%20in%20progress-yellow.svg?style=flat-square)](https://github.com)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
-![Pittaya Theme Preview](https://via.placeholder.com/800x450/1a1a1a/ff637e?text=Preview+Coming+Soon)
+![Pittaya Theme Preview](./assets/screenshot.png)
 
 </div>
 
@@ -79,8 +79,8 @@ Since this theme is not yet published, you can test it locally:
 - [x] Optimized color scheme for React development
 - [x] Green accent colors inspired by dragon fruit leaves
 - [x] Semantic token colors for advanced highlighting
-- [ ] Create extension icon
-- [ ] Add screenshots and preview images
+- [x] Create extension icon
+- [x] Add screenshots and preview images
 - [ ] Complete syntax highlighting for all major languages
 - [ ] Create light theme variant
 - [ ] Publish to VS Code Marketplace
