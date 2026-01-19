@@ -27,7 +27,9 @@ We're working hard to create the perfect minimalist dark theme. Feel free to clo
 - **Minimalist Design** — Clean interface that lets your code shine
 - **Eye-Comfort Dark Theme** — Carefully crafted dark palette to reduce eye strain
 - **Signature Pittaya Color** — Distinctive `#ff637e` accents inspired by dragon fruit
-- **Optimized Readability** — High contrast between text and background
+- **Optimized for React/TypeScript** — Enhanced syntax highlighting for modern web development
+- **Green Accents** — Fresh `#8fd460` green inspired by dragon fruit leaves
+- **Excellent Readability** — High contrast colors for better code comprehension
 - **Refined Syntax Highlighting** — Thoughtfully selected colors for different code elements
 - **Modern UI** — Updated tab styles and interface elements
 
@@ -38,10 +40,13 @@ We're working hard to create the perfect minimalist dark theme. Feel free to clo
 | Color | Hex | Usage |
 |-------|-----|-------|
 | ![#1a1a1a](https://via.placeholder.com/15/1a1a1a/1a1a1a.png) `Background` | `#1a1a1a` | Deep dark background |
-| ![#e0e0e0](https://via.placeholder.com/15/e0e0e0/e0e0e0.png) `Foreground` | `#e0e0e0` | Clear, readable text |
-| ![#ff637e](https://via.placeholder.com/15/ff637e/ff637e.png) `Accent` | `#ff637e` | Signature Pittaya color |
-| ![#ff9eb3](https://via.placeholder.com/15/ff9eb3/ff9eb3.png) `Secondary` | `#ff9eb3` | Soft accent variation |
-| ![#606060](https://via.placeholder.com/15/606060/606060.png) `Comments` | `#606060` | Subtle comments |
+| ![#e8e8e8](https://via.placeholder.com/15/e8e8e8/e8e8e8.png) `Foreground` | `#e8e8e8` | Clear, readable text |
+| ![#ff637e](https://via.placeholder.com/15/ff637e/ff637e.png) `Primary` | `#ff637e` | Keywords, tags, primary elements |
+| ![#8fd460](https://via.placeholder.com/15/8fd460/8fd460.png) `Secondary` | `#8fd460` | Functions, methods, brackets |
+| ![#b8e986](https://via.placeholder.com/15/b8e986/b8e986.png) `Tertiary` | `#b8e986` | Types, attributes, props |
+| ![#ffcc66](https://via.placeholder.com/15/ffcc66/ffcc66.png) `Strings` | `#ffcc66` | String literals |
+| ![#ff9eb3](https://via.placeholder.com/15/ff9eb3/ff9eb3.png) `Constants` | `#ff9eb3` | Constants, numbers |
+| ![#707070](https://via.placeholder.com/15/707070/707070.png) `Comments` | `#707070` | Comments and documentation |
 
 ---
 
@@ -69,6 +74,9 @@ Since this theme is not yet published, you can test it locally:
 
 ## 🚀 Future Plans
 
+- [x] Enhanced TypeScript/TSX syntax highlighting
+- [x] Optimized color scheme for React development
+- [x] Green accent colors inspired by dragon fruit leaves
 - [ ] Complete syntax highlighting for all major languages
 - [ ] Add semantic token colors
 - [ ] Create light theme variant

@@ -14,6 +14,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Local installation instructions
 - Future plans roadmap section
 - Contributing guidelines
+- Enhanced TypeScript/TSX syntax highlighting
+- Specific React/JSX component styling
+- React Hooks highlighting
+- TypeScript interfaces and types support
+- Green accent color palette inspired by dragon fruit leaves
 
 ### Changed
 - Updated tab styling for better visual clarity
@@ -21,11 +26,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tab border color set to signature Pittaya color (`#ff637e`)
 - Improved active/inactive tab contrast
 - Enhanced unfocused tab behavior
+- **Major readability improvements for TSX/React development**
+- Functions now use vibrant green (`#8fd460`) for better visibility
+- String colors changed to warm yellow (`#ffcc66`) for improved contrast
+- Types and attributes use light green (`#b8e986`)
+- Comments lightened to `#707070` for better readability
+- Editor foreground brightened to `#e8e8e8`
+- Variables now use `#f0f0f0` for clearer distinction
+- Bracket matching uses green highlights for better visual feedback
+- CSS properties now use green accent colors
+- Punctuation and operators improved with `#c5c5c5`
 
 ### UI Improvements
 - `tab.activeBorderTop` set to transparent for cleaner look
 - `tab.unfocusedActiveBorder` maintains consistency
 - `tab.unfocusedActiveBorderTop` set to transparent
+- Bracket match background uses green accent (`#8fd46025`)
+- Bracket match border changed to green (`#8fd460`)
+- Indent guides now use green active color
+- Better contrast for line highlights (`#252525`)
+- Improved selection backgrounds with better opacity
 
 ## [0.0.1] - Initial Development
 
@@ -50,10 +70,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Theme Colors
 - Primary background: `#1a1a1a`
-- Editor foreground: `#e0e0e0`
-- Accent color: `#ff637e`
-- Secondary accent: `#ff9eb3`
-- Comments: `#606060`
+- Editor foreground: `#e8e8e8` (improved from `#e0e0e0`)
+- Primary accent: `#ff637e` (keywords, tags)
+- Secondary accent (green): `#8fd460` (functions, methods)
+- Tertiary accent (light green): `#b8e986` (types, attributes)
+- Strings: `#ffcc66`
+- Constants: `#ff9eb3`
+- Comments: `#707070` (improved from `#606060`)
 
 ---
 
