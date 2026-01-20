@@ -5,6 +5,23 @@ All notable changes to Pittaya Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0] - 2026-01-20
+
+### 🎨 Added
+- **Pittaya Light Theme** — New light version of the theme with optimized colors for bright environments
+  - Maintains the same vibrant Pittaya color identity
+  - Optimized contrast for light backgrounds
+  - Perfect for daytime coding or well-lit spaces
+  - Background: `#fafafa` (ultra-light)
+  - Adjusted pink: `#d91656` (darker for better contrast)
+  - Adjusted green: `#2f9e44` (darker, optimized for light mode)
+  - String color: `#d97900` (orange-yellow for readability)
+  
+### Changed
+- Updated package description to reflect both dark and light versions
+- Added "light" keyword to package.json for better discoverability
+- Both themes now available in the theme selector
+
 ## [0.0.2] - 2026-01-19
 
 ### 🎉 Published
