@@ -5,7 +5,7 @@
 ### A minimalist dark theme for VS Code inspired by the vibrant colors of dragon fruit
 
 [![Version](https://img.shields.io/badge/version-0.0.2-ff637e.svg?style=flat-square)](package.json)
-[![Status](https://img.shields.io/badge/status-work%20in%20progress-yellow.svg?style=flat-square)](https://github.com)
+[![Marketplace](https://img.shields.io/badge/marketplace-published-brightgreen.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
 ![Pittaya Theme Preview](./assets/screenshot.png)
@@ -14,11 +14,11 @@
 
 ---
 
-## 🚧 Project Status
+## 🎉 Now Available on VS Code Marketplace!
 
-**This theme is currently under active development and not yet published to the VS Code Marketplace.**
+**Pittaya Theme is now published and available for everyone!**
 
-We're working hard to create the perfect minimalist dark theme. Feel free to clone this repository and test it locally, but keep in mind that colors, styles, and features may change frequently.
+[**Install from Marketplace →**](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
 
 ---
 
@@ -51,13 +51,31 @@ We're working hard to create the perfect minimalist dark theme. Feel free to clo
 
 ---
 
-## 📦 Local Installation (Development)
+## 📦 Installation
 
-Since this theme is not yet published, you can test it locally:
+### From VS Code Marketplace (Recommended)
+
+1. Open VS Code
+2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+3. Search for **"Pittaya Theme"**
+4. Click **Install**
+5. Press `Ctrl+K Ctrl+T` and select **Pittaya Dark**
+
+Or [install directly from the marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+
+### From Command Line
+
+```bash
+code --install-extension pittaya-org.pittaya-theme
+```
+
+### Local Development
+
+If you want to contribute or test locally:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/pittaya-theme.git
+   git clone https://github.com/pittaya-ui/pittaya-theme.git
    ```
 
 2. Copy the theme folder to your VS Code extensions directory:
@@ -66,10 +84,6 @@ Since this theme is not yet published, you can test it locally:
    - **Linux**: `~/.vscode/extensions`
 
 3. Reload VS Code
-
-4. Open Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
-
-5. Type "Color Theme" and select **Pittaya Theme**
 
 ---
 
@@ -81,9 +95,9 @@ Since this theme is not yet published, you can test it locally:
 - [x] Semantic token colors for advanced highlighting
 - [x] Create extension icon
 - [x] Add screenshots and preview images
+- [x] Publish to VS Code Marketplace
 - [ ] Complete syntax highlighting for all major languages
 - [ ] Create light theme variant
-- [ ] Publish to VS Code Marketplace
 - [ ] Add theme customization options
 - [ ] Create comprehensive documentation
 - [ ] Community feedback integration
@@ -92,11 +106,12 @@ Since this theme is not yet published, you can test it locally:
 
 ## 🤝 Contributing
 
-This project is in its early stages, but contributions are welcome! Feel free to:
+Contributions are welcome! Feel free to:
 
-- Report bugs or issues
+- Report bugs or issues on [GitHub Issues](https://github.com/pittaya-ui/pittaya-theme/issues)
 - Suggest new features or improvements
 - Submit pull requests
+- Leave a review on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
 
 ---
 
@@ -110,6 +125,6 @@ MIT License - feel free to use this theme however you'd like!
 
 **Made with 💜 and inspired by the vibrant colors of nature**
 
-_Theme status: Work in Progress | Not yet available on Marketplace_
+[Marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme) • [GitHub](https://github.com/pittaya-ui/pittaya-theme) • [Issues](https://github.com/pittaya-ui/pittaya-theme/issues)
 
 </div>

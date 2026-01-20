@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.2] - 2026-01-19
 
+### 🎉 Published
+- **Theme is now live on VS Code Marketplace!** — Available at https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme
+- Published under `pittaya-org` organization
+- Renamed theme label to "Pittaya Dark" for future variant support
+
 ### Fixed
 - **Control flow keywords now properly colored** — Fixed `if`, `else`, `return`, `for`, `while`, and other control flow keywords to use the signature Pittaya pink (`#ff637e`) instead of appearing in white/gray
 - Added specific scope rules for `keyword.control.conditional`, `keyword.control.flow`, `keyword.control.return`, and `keyword.control.loop`
@@ -34,6 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated `.vscodeignore` to optimize package size
 - Description now in English for wider reach
 - README now displays real screenshot instead of placeholder
+- Theme file renamed from `Pittaya Theme-color-theme.json` to `pittaya-dark.json`
+- Updated vscode engine requirement to `^1.80.0` for better compatibility
 
 ### Technical Details
 - Created new "Control Flow Keywords" rule that takes precedence over the generic "Operator, Misc" rule
@@ -117,8 +124,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Notes
 
-- **Current Status**: Work in Progress (WIP)
-- **Marketplace**: Not yet published
-- **Version**: Pre-release development
+- **Current Status**: ✅ Published on VS Code Marketplace
+- **Marketplace**: https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme
+- **Install Command**: `code --install-extension pittaya-org.pittaya-theme`
 
-For the latest updates and to contribute, visit the [GitHub repository](https://github.com).
+For the latest updates and to contribute, visit the [GitHub repository](https://github.com/pittaya-ui/pittaya-theme).
