@@ -10,17 +10,33 @@
 2. **Activate the theme**
    - Press `Ctrl + K`, `Ctrl + T` (Windows/Linux) or `Cmd + K`, `Cmd + T` (Mac)
    - Or go to `File > Preferences > Color Theme`
-   - Select **"Pittaya Theme"**
+   - Select **"Pittaya Dark"** or **"Pittaya Light"**
 
 3. **Test with your own files**
    - Open any TypeScript/React file in your project
    - Observe the improved syntax highlighting
+   - Try switching between Dark and Light variants to see which you prefer
+
+## Theme Variants
+
+### Pittaya Dark
+- Best for: Low-light environments, night coding, reducing eye strain
+- Background: `#1a1a1a` (deep dark)
+- Primary accent: `#ff637e` (vibrant pink)
+
+### Pittaya Light
+- Best for: Bright environments, daytime coding, well-lit offices
+- Background: `#fafafa` (ultra-light)
+- Primary accent: `#d91656` (deeper pink for contrast)
 
 ## What to Look For
 
+> **Note**: The following color references are for the **Dark theme**. The Light theme uses darker variants of the same colors for proper contrast on light backgrounds.
+
 ### ✅ Green Elements (Pitaya Leaves)
 
-Check if the following elements are in **vibrant green** (`#8fd460`):
+Check if the following elements are in **vibrant green**:
+- Dark: `#8fd460` | Light: `#2f9e44`
 - [ ] Function names (e.g., `UserCard`, `fetchUserData`, `formatDate`)
 - [ ] React Hooks (e.g., `useState`, `useEffect`)
 - [ ] Function calls
@@ -29,7 +45,8 @@ Check if the following elements are in **vibrant green** (`#8fd460`):
 
 ### ✅ Light Green Elements (Types/Attributes)
 
-Check if the following elements are in **light green** (`#b8e986`):
+Check if the following elements are in **light/darker green**:
+- Dark: `#b8e986` | Light: `#2b8a3e`
 - [ ] TypeScript types (e.g., `User`, `UserCardProps`)
 - [ ] JSX attributes (e.g., `className`, `onClick`, `disabled`)
 - [ ] Type keywords (e.g., `interface`, `type`)
@@ -37,39 +54,54 @@ Check if the following elements are in **light green** (`#b8e986`):
 
 ### ✅ Pink Elements (Main Pittaya)
 
-Check if the following elements are in **pink** (`#ff637e`):
+Check if the following elements are in **pink**:
+- Dark: `#ff637e` | Light: `#d91656`
 - [ ] Keywords (`import`, `export`, `const`, `let`, `async`, `await`)
 - [ ] Control flow keywords (`if`, `else`, `return`, `for`, `while`, `do`, `break`, `continue`)
 - [ ] JSX tags (e.g., `<motion.div>`, `<button>`)
 - [ ] Class and component names
 
-### ✅ Yellow Elements (Strings)
+### ✅ Yellow/Orange Elements (Strings)
 
-Check if the following elements are in **golden yellow** (`#ffcc66`):
+Check if the following elements are in **yellow/orange**:
+- Dark: `#ffcc66` | Light: `#d97900`
 - [ ] Regular strings (e.g., `'Loading...'`)
 - [ ] Template strings (e.g., `` `${API_BASE_URL}/users/${email}` ``)
 - [ ] CSS classes (e.g., `'bg-gradient-to-br'`)
 
 ### ✅ Other Elements
 
-- [ ] **Numbers and booleans**: Light pink (`#ffb3cc`)
-- [ ] **Comments**: Lighter gray (`#707070`) - should be readable
-- [ ] **Variables**: Bright white (`#f0f0f0`)
-- [ ] **Brackets matching**: Soft green background when you position cursor on `{`, `}`, `[`, `]`, `(`, `)`
+- [ ] **Numbers and booleans**: 
+  - Dark: `#ffb3cc` | Light: `#c2255c`
+- [ ] **Comments**: 
+  - Dark: `#707070` | Light: `#909090` - should be readable but discreet
+- [ ] **Variables**: 
+  - Dark: `#f0f0f0` | Light: `#1a1a1a`
+- [ ] **Brackets matching**: Green background when you position cursor on `{`, `}`, `[`, `]`, `(`, `)`
 
 ## Visual Comparison
 
-### Before Improvements ❌
+### Dark Theme
+
+#### Before Improvements ❌
 - Functions in dull gray - hard to distinguish
 - Strings in gray - no contrast
 - Types invisible
 - Comments too dark
 
-### After Improvements ✅
+#### After Improvements ✅
 - Functions in vibrant green - easy location
 - Strings in yellow - high contrast
 - Types in light green - clearly visible
 - Comments readable but discreet
+
+### Light Theme
+
+#### Benefits ✨
+- Perfect for bright environments and daytime coding
+- Maintains the same color identity as the dark theme
+- Optimized contrast for light backgrounds
+- Reduced glare while keeping excellent readability
 
 ## Testing in Different Files
 
@@ -92,16 +124,18 @@ Check if the following elements are in **golden yellow** (`#ffcc66`):
 If something isn't as expected:
 
 1. Make sure you've reloaded the window
-2. Check if "Pittaya Theme" is active
+2. Check if the correct theme variant is active ("Pittaya Dark" or "Pittaya Light")
 3. Open the theme folder and verify files were saved correctly
+4. Try switching between variants to see if the issue persists
 
 ## Feedback
 
 Test especially:
-- 🎯 **Readability**: Can you read the code easily?
+- 🎯 **Readability**: Can you read the code easily in both variants?
 - 🎨 **Contrast**: Do the colors stand out enough?
 - 👁️ **Eye Strain**: Are the colors comfortable for long sessions?
 - ⚡ **Productivity**: Can you identify elements quickly?
+- 🌓 **Switching**: Does switching between Dark and Light feel natural?
 
 ---
 

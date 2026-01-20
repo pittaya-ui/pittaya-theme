@@ -4,25 +4,47 @@
 
 **Pittaya Theme** is inspired by the vibrant colors of dragon fruit (pitaya), combining the characteristic pink of the pulp with the refreshing green of the leaves and cacti. This theme has been specially optimized for **React/TypeScript** development, providing maximum readability and a pleasant visual experience during long coding sessions.
 
+The theme is now available in **two variants**:
+- **Pittaya Dark**: For low-light environments and night coding
+- **Pittaya Light**: For bright environments and daytime coding
+
+Both variants maintain the same color identity and visual language, adapted for their respective backgrounds.
+
 ---
 
 ## Main Color Palette
 
-### 🌑 Background Colors
+### 🌑 Dark Theme
+
+#### Background Colors
 - **Primary Background**: `#1a1a1a` - Deep dark background that reduces eye strain
 - **Line Background**: `#252525` - Subtle highlight for current line
 - **Secondary Background**: `#151515` - Used in sidebar and panels
 
-### 🔤 Text Colors
+#### Text Colors
 - **Primary Text**: `#e8e8e8` - Clear and readable text
 - **Variables**: `#f0f0f0` - Variables with extra emphasis
 - **Comments**: `#707070` - Discreet but readable comments
+
+### ☀️ Light Theme
+
+#### Background Colors
+- **Primary Background**: `#fafafa` - Ultra-light background for bright environments
+- **Line Background**: `#f0f0f0` - Subtle highlight for current line
+- **Secondary Background**: `#f5f5f5` - Used in sidebar and panels
+
+#### Text Colors
+- **Primary Text**: `#2a2a2a` - Dark, clear and readable text
+- **Variables**: `#1a1a1a` - Variables with strong contrast
+- **Comments**: `#909090` - Balanced gray for readability
 
 ---
 
 ## Semantic Colors by Element
 
-### 🌸 Pittaya Pink (`#ff637e`)
+### 🌸 Pittaya Pink
+**Dark**: `#ff637e` | **Light**: `#d91656`
+
 **Usage**: Main elements and keywords
 - Keywords (`import`, `export`, `const`, `let`, `var`, `function`, `async`, `await`)
 - Control flow keywords (`if`, `else`, `return`, `for`, `while`, `do`, `break`, `continue`)
@@ -36,7 +58,9 @@
 
 **Why?** Pink is the characteristic color of pitaya and serves as the main emphasis color of the theme, drawing attention to important structural elements.
 
-### 🍃 Pittaya Green (`#8fd460`)
+### 🍃 Pittaya Green
+**Dark**: `#8fd460` | **Light**: `#2f9e44`
+
 **Usage**: Functions, methods and functional expressions
 - Function and method names
 - Function calls
@@ -49,7 +73,9 @@
 
 **Why?** Inspired by the leaves and cacti of the pitaya plant, green provides a pleasant and natural contrast, perfect for highlighting the functional logic of the code.
 
-### 🌿 Light Green (`#b8e986`)
+### 🌿 Light/Dark Green
+**Dark**: `#b8e986` | **Light**: `#2b8a3e`
+
 **Usage**: Types, interfaces and attributes
 - TypeScript Types and Interfaces
 - HTML/JSX attributes
@@ -58,18 +84,22 @@
 - Primitive types
 - Support types
 
-**Why?** A softer variation of green, ideal for typing elements that need to be visible but not dominant.
+**Why?** A variation of green, ideal for typing elements that need to be visible but not dominant.
 
-### 🌕 Golden Yellow (`#ffcc66`)
+### 🌕 Golden Yellow / Orange
+**Dark**: `#ffcc66` | **Light**: `#d97900`
+
 **Usage**: Strings and literal texts
 - String literals
 - Template strings
 - Quoted text
 - Object keys (in some contexts)
 
-**Why?** Offers excellent contrast with the dark background and is easily distinguishable from other elements, making strings immediately identifiable.
+**Why?** Offers excellent contrast with both dark and light backgrounds, making strings immediately identifiable.
 
-### 🌸 Light Pink (`#ffb3cc`)
+### 🌸 Light/Medium Pink
+**Dark**: `#ffb3cc` | **Light**: `#c2255c`
+
 **Usage**: Constants and numeric values
 - Numbers
 - Constants (`true`, `false`, `null`, `undefined`)
@@ -77,9 +107,11 @@
 - Function parameters
 - Escape characters
 
-**Why?** A soft variation of the main pink, ideal for literal values that need to stand out without competing with keywords.
+**Why?** A variation of the main pink, ideal for literal values that need to stand out without competing with keywords.
 
-### ⚪ Light Gray (`#c5c5c5`)
+### ⚪ Gray Tones
+**Dark**: `#c5c5c5` | **Light**: `#4a4a4a`
+
 **Usage**: Punctuation and operators
 - General punctuation
 - Operators
@@ -91,6 +123,8 @@
 ---
 
 ## Practical Examples
+
+> **Note**: The examples below show color names from the **Dark theme**. The Light theme uses adjusted variants of these colors for optimal contrast.
 
 ### TypeScript/React Component
 
@@ -169,7 +203,31 @@ const isEnabled = true;
 
 ---
 
-## Comparison: Before vs After
+## Comparison: Dark vs Light
+
+### Color Adjustments for Light Theme
+
+| Element | Dark Theme | Light Theme | Reason |
+|---------|-----------|-------------|--------|
+| Background | `#1a1a1a` (deep dark) | `#fafafa` (ultra-light) | Inverted for brightness |
+| Foreground | `#e8e8e8` (light) | `#2a2a2a` (dark) | Inverted for contrast |
+| Pink Accent | `#ff637e` (vibrant) | `#d91656` (deeper) | Darker for light background contrast |
+| Green | `#8fd460` (bright) | `#2f9e44` (darker) | Adjusted for readability |
+| Light Green | `#b8e986` (soft) | `#2b8a3e` (darker) | Better contrast on light |
+| Strings | `#ffcc66` (yellow) | `#d97900` (orange) | Warmer, more visible on light |
+| Constants | `#ffb3cc` (light pink) | `#c2255c` (medium pink) | Balanced for light mode |
+| Comments | `#707070` (medium gray) | `#909090` (lighter gray) | Readable but discreet |
+
+### Design Principles for Both Variants
+
+1. **Consistent Identity**: Same color families (pink, green, yellow/orange)
+2. **Optimized Contrast**: Each variant adjusted for its background
+3. **Visual Hierarchy**: Same elements have the same semantic meaning
+4. **Eye Comfort**: Both designed to reduce strain in their respective environments
+
+---
+
+## Comparison: Before Theme vs After Theme
 
 ### Before ❌
 - Functions: `#a0a0a0` (dull gray, hard to read)
@@ -187,22 +245,27 @@ const isEnabled = true;
 
 ## Usage Tips
 
-1. **React Development**: Green helps quickly identify hooks and functions
-2. **TypeScript**: The differentiation between types (light green) and values (other colors) makes the code clearer
+1. **React Development**: Green helps quickly identify hooks and functions in both variants
+2. **TypeScript**: The differentiation between types (green tones) and values (other colors) makes the code clearer
 3. **CSS/Tailwind**: Properties in green facilitate reading inline styles
 4. **Debugging**: Distinct colors help quickly identify different elements during debugging
+5. **Environment Switching**: 
+   - Use **Dark theme** for night coding or low-light environments
+   - Use **Light theme** for daytime coding or bright offices
+   - Switch easily with `Ctrl+K Ctrl+T` (Windows/Linux) or `Cmd+K Cmd+T` (Mac)
 
 ---
 
 ## Design Philosophy
 
-> "A theme should be like pitaya: vibrant and refreshing, yet gentle on the eyes."
+> "A theme should be like pitaya: vibrant and refreshing, yet gentle on the eyes — adaptable to any environment."
 
 Pittaya Theme balances:
 - 🎨 **Aesthetics**: Nature-inspired colors
-- 👁️ **Ergonomics**: Reduced eye strain
+- 👁️ **Ergonomics**: Reduced eye strain in any lighting condition
 - ⚡ **Productivity**: Quick element identification
 - 🌿 **Harmony**: Cohesive and pleasant palette
+- 🌓 **Versatility**: Two variants for different environments
 
 ---
 

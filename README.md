@@ -2,9 +2,9 @@
 
 # 🎨 Pittaya Theme
 
-### A minimalist dark theme for VS Code inspired by the vibrant colors of dragon fruit
+### A minimalist theme for VS Code inspired by the vibrant colors of dragon fruit
 
-[![Version](https://img.shields.io/badge/version-0.0.2-ff637e.svg?style=flat-square)](package.json)
+[![Version](https://img.shields.io/badge/version-0.1.0-ff637e.svg?style=flat-square)](package.json)
 [![Marketplace](https://img.shields.io/badge/marketplace-published-brightgreen.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
@@ -24,12 +24,13 @@
 
 ## ✨ Features
 
+- **Two Beautiful Variants** — Dark and Light themes to match your environment
 - **Minimalist Design** — Clean interface that lets your code shine
-- **Eye-Comfort Dark Theme** — Carefully crafted dark palette to reduce eye strain
-- **Signature Pittaya Color** — Distinctive `#ff637e` accents inspired by dragon fruit
+- **Eye-Comfort Optimized** — Carefully crafted palettes to reduce eye strain
+- **Signature Pittaya Color** — Distinctive pink accents inspired by dragon fruit
 - **Optimized for React/TypeScript** — Enhanced syntax highlighting for modern web development
 - **Semantic Highlighting** — Advanced token colors for more accurate syntax representation
-- **Green Accents** — Fresh `#8fd460` green inspired by dragon fruit leaves
+- **Green Accents** — Fresh green tones inspired by dragon fruit leaves
 - **Excellent Readability** — High contrast colors for better code comprehension
 - **Refined Syntax Highlighting** — Thoughtfully selected colors for different code elements
 - **Modern UI** — Updated tab styles and interface elements
@@ -37,6 +38,8 @@
 ---
 
 ## 🎨 Color Palette
+
+### Dark Theme
 
 | Color | Hex | Usage |
 |-------|-----|-------|
@@ -49,6 +52,19 @@
 | ![#ff9eb3](https://via.placeholder.com/15/ff9eb3/ff9eb3.png) `Constants` | `#ff9eb3` | Constants, numbers |
 | ![#707070](https://via.placeholder.com/15/707070/707070.png) `Comments` | `#707070` | Comments and documentation |
 
+### Light Theme
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| ![#fafafa](https://via.placeholder.com/15/fafafa/fafafa.png) `Background` | `#fafafa` | Ultra-light background |
+| ![#2a2a2a](https://via.placeholder.com/15/2a2a2a/2a2a2a.png) `Foreground` | `#2a2a2a` | Dark, readable text |
+| ![#d91656](https://via.placeholder.com/15/d91656/d91656.png) `Primary` | `#d91656` | Keywords, tags, primary elements |
+| ![#2f9e44](https://via.placeholder.com/15/2f9e44/2f9e44.png) `Secondary` | `#2f9e44` | Functions, methods, brackets |
+| ![#2b8a3e](https://via.placeholder.com/15/2b8a3e/2b8a3e.png) `Tertiary` | `#2b8a3e` | Types, attributes, props |
+| ![#d97900](https://via.placeholder.com/15/d97900/d97900.png) `Strings` | `#d97900` | String literals |
+| ![#c2255c](https://via.placeholder.com/15/c2255c/c2255c.png) `Constants` | `#c2255c` | Constants, numbers |
+| ![#909090](https://via.placeholder.com/15/909090/909090.png) `Comments` | `#909090` | Comments and documentation |
+
 ---
 
 ## 📦 Installation
@@ -59,7 +75,7 @@
 2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for **"Pittaya Theme"**
 4. Click **Install**
-5. Press `Ctrl+K Ctrl+T` and select **Pittaya Dark**
+5. Press `Ctrl+K Ctrl+T` and select **Pittaya Dark** or **Pittaya Light**
 
 Or [install directly from the marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
 
@@ -96,8 +112,8 @@ If you want to contribute or test locally:
 - [x] Create extension icon
 - [x] Add screenshots and preview images
 - [x] Publish to VS Code Marketplace
+- [x] Create light theme variant
 - [ ] Complete syntax highlighting for all major languages
-- [ ] Create light theme variant
 - [ ] Add theme customization options
 - [ ] Create comprehensive documentation
 - [ ] Community feedback integration
