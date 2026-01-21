@@ -5,6 +5,39 @@ All notable changes to Pittaya Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2026-01-21
+
+### 🐍 Added - Extended Python Support
+- **Comprehensive Python syntax highlighting** — Added detailed token colors matching the quality of TypeScript/TSX support
+  - **Classes** — Bold pink highlighting for class definitions
+  - **Functions** — Green color for function definitions and calls
+  - **Decorators** — Italic pink for decorators like `@property`, `@staticmethod`, `@dataclass`
+  - **Self/cls parameters** — Special italic pink highlighting
+  - **Magic methods** — Distinct light pink with italic for `__init__`, `__str__`, etc.
+  - **Built-in functions** — Green color for `print()`, `len()`, `range()`, etc.
+  - **Built-in types** — Light green for `str`, `int`, `list`, `dict`, etc.
+  - **Import statements** — Italic pink for `import` and `from` keywords
+  - **Exception keywords** — Highlighted `try`, `except`, `raise`, `finally`
+  - **String formatting** — Special color for f-strings and string interpolation
+  - **F-string expressions** — Green highlighting for expressions inside f-strings
+  - **Type hints** — Light green for PEP 484 type annotations
+  - **Lambda expressions** — Pink highlighting for lambda functions
+  - **Parameters** — Light pink for function parameters
+  - **Constants** — Special color for `True`, `False`, `None`
+  - **Operators** — Distinct colors for logical and comparison operators
+  - **Docstrings** — Italic gray for documentation strings
+
+### Changed
+- Added Python to keywords in `package.json` for better marketplace discoverability
+- Updated README to highlight Python support as a key feature
+- All Python highlighting maintains consistency with existing TypeScript/TSX color palette
+
+### Technical Details
+- Added 20+ Python-specific scope rules to both Dark and Light themes
+- Python support follows the same design philosophy as TypeScript/TSX support
+- Colors chosen to maintain visual consistency across languages
+- All syntax elements use semantic scopes for accurate highlighting
+
 ## [0.1.0] - 2026-01-20
 
 ### 🎨 Added

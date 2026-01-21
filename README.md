@@ -4,7 +4,7 @@
 
 ### A minimalist theme for VS Code inspired by the vibrant colors of dragon fruit
 
-[![Version](https://img.shields.io/badge/version-0.1.0-ff637e.svg?style=flat-square)](package.json)
+[![Version](https://img.shields.io/badge/version-0.2.0-ff637e.svg?style=flat-square)](package.json)
 [![Marketplace](https://img.shields.io/badge/marketplace-published-brightgreen.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
@@ -29,6 +29,7 @@
 - **Eye-Comfort Optimized** — Carefully crafted palettes to reduce eye strain
 - **Signature Pittaya Color** — Distinctive pink accents inspired by dragon fruit
 - **Optimized for React/TypeScript** — Enhanced syntax highlighting for modern web development
+- **Extended Python Support** — Comprehensive highlighting for Python with decorators, type hints, f-strings, and more
 - **Semantic Highlighting** — Advanced token colors for more accurate syntax representation
 - **Green Accents** — Fresh green tones inspired by dragon fruit leaves
 - **Excellent Readability** — High contrast colors for better code comprehension
@@ -113,7 +114,8 @@ If you want to contribute or test locally:
 - [x] Add screenshots and preview images
 - [x] Publish to VS Code Marketplace
 - [x] Create light theme variant
-- [ ] Complete syntax highlighting for all major languages
+- [x] Extended Python support with decorators, type hints, and f-strings
+- [ ] Complete syntax highlighting for other major languages (Go, Rust, Java, etc.)
 - [ ] Add theme customization options
 - [ ] Create comprehensive documentation
 - [ ] Community feedback integration
