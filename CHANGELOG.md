@@ -5,6 +5,21 @@ All notable changes to Pittaya Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- **Open VSX Registry support** — Theme now available on Open VSX for Cursor, Windsurf, VSCodium and other VS Code alternatives
+- Dynamic marketplace badges in README (Version, Downloads, Rating, Installs, Open VSX)
+- Comprehensive CONTRIBUTING.md guide with detailed instructions for contributors
+- Keywords for Cursor, Windsurf, and VSCodium in package.json for better discoverability
+- Badges section in package.json for both VS Code Marketplace and Open VSX Registry
+- Homepage, bugs URL in package.json
+
+### Changed
+- Updated README with clearer installation instructions for multiple IDEs
+- Improved documentation structure with separate sections for VS Code and alternative IDEs
+- Enhanced footer with links to both marketplaces
+
 ## [0.2.0] - 2026-01-21
 
 ### 🐍 Added - Extended Python Support

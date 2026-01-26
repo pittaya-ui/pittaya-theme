@@ -17,13 +17,32 @@
     "color-theme",
     "typescript",
     "react",
-    "python"
+    "python",
+    "cursor",
+    "windsurf",
+    "vscodium"
   ],
   "icon": "icon.png",
+  "homepage": "https://github.com/pittaya-ui/pittaya-theme#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/pittaya-ui/pittaya-theme"
   },
+  "bugs": {
+    "url": "https://github.com/pittaya-ui/pittaya-theme/issues"
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/v/pittaya-org.pittaya-theme?style=flat-square&logo=visual-studio-code&color=ff637e&label=VS%20Code%20Marketplace",
+      "href": "https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme",
+      "description": "VS Code Marketplace"
+    },
+    {
+      "url": "https://img.shields.io/open-vsx/v/pittaya-org/pittaya-theme?style=flat-square&logo=vscodium&color=8fd460&label=Open%20VSX",
+      "href": "https://open-vsx.org/extension/pittaya-org/pittaya-theme",
+      "description": "Open VSX Registry"
+    }
+  ],
   "contributes": {
     "themes": [
       {
