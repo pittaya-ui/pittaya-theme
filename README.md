@@ -4,9 +4,13 @@
 
 ### A minimalist theme for VS Code inspired by the vibrant colors of dragon fruit
 
-[![Version](https://img.shields.io/badge/version-0.2.0-ff637e.svg?style=flat-square)](package.json)
-[![Marketplace](https://img.shields.io/badge/marketplace-published-brightgreen.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/pittaya-org.pittaya-theme?style=flat-square&logo=visual-studio-code&color=ff637e&label=version)](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/pittaya-org.pittaya-theme?style=flat-square&logo=visual-studio-code&color=8fd460&label=downloads)](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/pittaya-org.pittaya-theme?style=flat-square&logo=visual-studio-code&color=ffcc66&label=rating)](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/pittaya-org.pittaya-theme?style=flat-square&logo=visual-studio-code&color=ff9eb3&label=installs)](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+[![Open VSX](https://img.shields.io/open-vsx/v/pittaya-org/pittaya-theme?style=flat-square&logo=vscodium&color=b8e986&label=open%20vsx)](https://open-vsx.org/extension/pittaya-org/pittaya-theme)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![GitHub](https://img.shields.io/github/stars/pittaya-ui/pittaya-theme?style=flat-square&logo=github&label=stars)](https://github.com/pittaya-ui/pittaya-theme)
 
 ![Pittaya Theme Preview](./assets/screenshot.png)
 
@@ -14,11 +18,12 @@
 
 ---
 
-## 🎉 Now Available on VS Code Marketplace!
+## 🎉 Available on Multiple Marketplaces!
 
 **Pittaya Theme is now published and available for everyone!**
 
-[**Install from Marketplace →**](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+- **[VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)** — Official VS Code extensions marketplace
+- **[Open VSX Registry](https://open-vsx.org/extension/pittaya-org/pittaya-theme)** — For Cursor, Windsurf, VSCodium and other VS Code alternatives
 
 ---
 
@@ -70,7 +75,9 @@
 
 ## 📦 Installation
 
-### From VS Code Marketplace (Recommended)
+### For VS Code (Official)
+
+**Method 1: Via Extensions Panel**
 
 1. Open VS Code
 2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
@@ -78,13 +85,33 @@
 4. Click **Install**
 5. Press `Ctrl+K Ctrl+T` and select **Pittaya Dark** or **Pittaya Light**
 
-Or [install directly from the marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+**Method 2: Direct Install**
 
-### From Command Line
+[Install from VS Code Marketplace →](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+
+**Method 3: Command Line**
 
 ```bash
 code --install-extension pittaya-org.pittaya-theme
 ```
+
+---
+
+### For Cursor, Windsurf & Other IDEs
+
+**Using Open VSX Registry:**
+
+1. Open your IDE (Cursor, Windsurf, VSCodium, etc.)
+2. Go to Extensions panel
+3. Search for **"Pittaya Theme"**
+4. Click **Install**
+5. Activate the theme in your IDE settings
+
+**Or install directly from:**
+
+[Open VSX Registry →](https://open-vsx.org/extension/pittaya-org/pittaya-theme)
+
+> **Note:** Cursor, Windsurf, and many VS Code alternatives use Open VSX Registry instead of the official VS Code Marketplace. Both registries have the same theme version!
 
 ### Local Development
 
@@ -124,12 +151,16 @@ If you want to contribute or test locally:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to:
+Contributions are welcome! We'd love your help to make Pittaya Theme even better.
 
-- Report bugs or issues on [GitHub Issues](https://github.com/pittaya-ui/pittaya-theme/issues)
-- Suggest new features or improvements
-- Submit pull requests
-- Leave a review on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+**Ways to contribute:**
+- 🐛 Report bugs or issues on [GitHub Issues](https://github.com/pittaya-ui/pittaya-theme/issues)
+- 💡 Suggest new features or improvements
+- 🔨 Submit pull requests
+- ⭐ Leave a review on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
+- 📝 Improve documentation
+
+**Please read our [Contributing Guide](CONTRIBUTING.md) before submitting a PR.**
 
 ---
 
@@ -143,6 +174,6 @@ MIT License - feel free to use this theme however you'd like!
 
 **Made with 💜 and inspired by the vibrant colors of nature**
 
-[Marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme) • [GitHub](https://github.com/pittaya-ui/pittaya-theme) • [Issues](https://github.com/pittaya-ui/pittaya-theme/issues)
+[VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme) • [Open VSX](https://open-vsx.org/extension/pittaya-org/pittaya-theme) • [GitHub](https://github.com/pittaya-ui/pittaya-theme) • [Issues](https://github.com/pittaya-ui/pittaya-theme/issues)
 
 </div>
