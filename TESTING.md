@@ -115,9 +115,77 @@ Check if the following elements are in **yellow/orange**:
    - Props in light green
    - Hooks in vibrant green
 
-3. **CSS/SCSS Files**
+3. **Go Files** (`.go`)
+   - Package declarations in pink (italic)
+   - Function names in green
+   - Struct and interface names in bold pink
+   - Built-in types in light green
+   - Concurrency keywords (`go`, `defer`, `select`) in bold pink
+   - Pointers (`*`, `&`) in pink
+
+4. **Python Files** (`.py`)
+   - Function and class names with proper colors
+   - Decorators in italic pink
+   - Type hints in light green
+
+5. **CSS/SCSS Files**
    - Properties should be in green
    - Values in their respective colors
+
+## Go-Specific Testing
+
+### What to Test in Go Files
+
+Open the `test.go` file included in this extension and verify:
+
+#### ✅ Package & Import (Pink Italic)
+```go
+package main  // "package" should be pink italic
+import "fmt"  // "import" should be pink italic
+```
+
+#### ✅ Keywords (Pink)
+- [ ] `func`, `var`, `const`, `type`
+- [ ] `struct`, `interface`, `map`, `chan`
+- [ ] Control flow: `if`, `else`, `for`, `range`, `switch`, `case`, `default`
+- [ ] `return`, `break`, `continue`
+
+#### ✅ Function Names (Green)
+- [ ] Function declarations: `func NewUser(...)` - "NewUser" in green
+- [ ] Method declarations: `func (u *User) GetInfo()` - "GetInfo" in green (italic)
+- [ ] Function calls: `fmt.Println()` - "Println" in green
+
+#### ✅ Types (Light Green)
+- [ ] Built-in types: `int`, `string`, `bool`, `error`
+- [ ] Type declarations after keywords
+
+#### ✅ Struct & Interface Names (Bold Pink)
+- [ ] `type User struct` - "User" in bold pink
+- [ ] `type UserService interface` - "UserService" in bold pink
+
+#### ✅ Concurrency (Bold Pink)
+- [ ] `go processUser(...)` - "go" in bold pink
+- [ ] `defer wg.Done()` - "defer" in bold pink
+- [ ] `select { case ... }` - "select" in bold pink
+
+#### ✅ Operators & Pointers (Pink)
+- [ ] Pointer operators: `*User`, `&user` - `*` and `&` in pink
+- [ ] Channel operator: `<-ch`
+
+#### ✅ Strings (Yellow/Orange)
+- [ ] Regular strings: `"Hello, World"`
+- [ ] Raw strings: `` `multi-line string` ``
+- [ ] Format verbs in green: `fmt.Sprintf("User: %s", name)` - `%s` in green
+
+#### ✅ Constants & Numbers (Light Pink)
+- [ ] Numeric literals: `100`, `3.14`
+- [ ] Boolean values: `true`, `false`
+- [ ] Constant declarations
+
+#### ✅ Comments (Gray Italic)
+- [ ] Single-line comments: `// This is a comment`
+- [ ] Block comments: `/* Multi-line comment */`
+- [ ] Doc comments: `// User represents...`
 
 ## Known Issues?
 

@@ -34,6 +34,7 @@
 - **Eye-Comfort Optimized** — Carefully crafted palettes to reduce eye strain
 - **Signature Pittaya Color** — Distinctive pink accents inspired by dragon fruit
 - **Optimized for React/TypeScript** — Enhanced syntax highlighting for modern web development
+- **Complete Go Support** — Comprehensive highlighting for Go with structs, interfaces, goroutines, and concurrency primitives
 - **Extended Python Support** — Comprehensive highlighting for Python with decorators, type hints, f-strings, and more
 - **Semantic Highlighting** — Advanced token colors for more accurate syntax representation
 - **Green Accents** — Fresh green tones inspired by dragon fruit leaves
@@ -142,7 +143,8 @@ If you want to contribute or test locally:
 - [x] Publish to VS Code Marketplace
 - [x] Create light theme variant
 - [x] Extended Python support with decorators, type hints, and f-strings
-- [ ] Complete syntax highlighting for other major languages (Go, Rust, Java, etc.)
+- [x] Complete Go language support with structs, interfaces, and concurrency primitives
+- [ ] Complete syntax highlighting for other major languages (Rust, Java, C++, etc.)
 - [ ] Add theme customization options
 - [ ] Create comprehensive documentation
 - [ ] Community feedback integration

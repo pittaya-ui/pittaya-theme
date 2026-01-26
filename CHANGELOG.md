@@ -7,18 +7,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-01-26
+
+### 🐹 Added - Complete Go Language Support
+- **Comprehensive Go syntax highlighting** — Professional highlighting matching TypeScript/Python quality
+  - **Package declarations** — Pink with italic for `package` and `import` statements
+  - **Keywords** — Pink highlighting for all Go keywords (`func`, `var`, `const`, `type`, etc.)
+  - **Function declarations** — Green color for function and method names
+  - **Method declarations** — Italic green for methods with receivers
+  - **Types** — Light green for built-in types (`int`, `string`, `bool`, `error`, etc.)
+  - **Struct and Interface names** — Bold pink for type definitions
+  - **Variables** — Standard white/black for readability
+  - **Constants** — Light pink for `const` values and numeric literals
+  - **Strings and Runes** — Yellow/orange for string literals and raw strings
+  - **Format verbs** — Green highlighting for `Printf` format strings (`%s`, `%d`, etc.)
+  - **Operators** — Gray for operators and punctuation
+  - **Pointers and References** — Pink for `*` and `&` operators to highlight memory operations
+  - **Parameters** — Light pink for function parameters
+  - **Struct fields** — White/black for struct member access
+  - **Comments** — Gray italic for both single-line and block comments
+  - **Doc comments** — Gray italic for documentation comments
+  - **Built-in functions** — Green for `make`, `len`, `append`, `new`, etc.
+  - **Concurrency keywords** — Bold pink for `go`, `defer`, `select` to emphasize async operations
+  - **Channel operators** — Pink for channel operations
+
 ### Added
-- **Open VSX Registry support** — Theme now available on Open VSX for Cursor, Windsurf, VSCodium and other VS Code alternatives
-- Dynamic marketplace badges in README (Version, Downloads, Rating, Installs, Open VSX)
-- Comprehensive CONTRIBUTING.md guide with detailed instructions for contributors
-- Keywords for Cursor, Windsurf, and VSCodium in package.json for better discoverability
-- Badges section in package.json for both VS Code Marketplace and Open VSX Registry
-- Homepage, bugs URL in package.json
+- Go syntax examples and color guide added to `COLOR-GUIDE.md`
+- Go-specific testing section in `TESTING.md`
+- Comprehensive `test.go` example file demonstrating all Go features
+- Keywords "go" and "golang" added to `package.json`
 
 ### Changed
-- Updated README with clearer installation instructions for multiple IDEs
-- Improved documentation structure with separate sections for VS Code and alternative IDEs
-- Enhanced footer with links to both marketplaces
+- Updated theme description in `package.json` to mention Go support
+- Updated `README.md` to highlight Go as a supported language
+- Updated "Future Plans" section marking Go support as completed
 
 ## [0.2.0] - 2026-01-21
 

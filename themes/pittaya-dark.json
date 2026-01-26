@@ -1112,6 +1112,261 @@
 				"foreground": "#707070",
 				"fontStyle": "italic"
 			}
+		},
+		{
+			"name": "Go - Package Declaration",
+			"scope": [
+				"keyword.package.go",
+				"keyword.import.go"
+			],
+			"settings": {
+				"foreground": "#ff637e",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Go - Package Name",
+			"scope": [
+				"entity.name.package.go"
+			],
+			"settings": {
+				"foreground": "#ff637e"
+			}
+		},
+		{
+			"name": "Go - Keywords",
+			"scope": [
+				"keyword.go",
+				"keyword.function.go",
+				"keyword.type.go",
+				"keyword.var.go",
+				"keyword.const.go",
+				"keyword.interface.go",
+				"keyword.struct.go",
+				"keyword.map.go",
+				"keyword.chan.go",
+				"keyword.other.go"
+			],
+			"settings": {
+				"foreground": "#ff637e"
+			}
+		},
+		{
+			"name": "Go - Control Flow",
+			"scope": [
+				"keyword.control.go",
+				"keyword.control.conditional.go",
+				"keyword.control.loop.go",
+				"keyword.control.return.go",
+				"keyword.control.switch.go",
+				"keyword.control.case.go",
+				"keyword.control.break.go",
+				"keyword.control.continue.go"
+			],
+			"settings": {
+				"foreground": "#ff637e"
+			}
+		},
+		{
+			"name": "Go - Function Declaration",
+			"scope": [
+				"entity.name.function.go",
+				"support.function.go"
+			],
+			"settings": {
+				"foreground": "#8fd460"
+			}
+		},
+		{
+			"name": "Go - Function Calls",
+			"scope": [
+				"meta.function-call.go",
+				"support.function.builtin.go"
+			],
+			"settings": {
+				"foreground": "#8fd460"
+			}
+		},
+		{
+			"name": "Go - Method Declaration",
+			"scope": [
+				"entity.name.function.method.go"
+			],
+			"settings": {
+				"foreground": "#8fd460",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Go - Types",
+			"scope": [
+				"entity.name.type.go",
+				"storage.type.go",
+				"support.type.go"
+			],
+			"settings": {
+				"foreground": "#b8e986"
+			}
+		},
+		{
+			"name": "Go - Built-in Types",
+			"scope": [
+				"storage.type.boolean.go",
+				"storage.type.byte.go",
+				"storage.type.error.go",
+				"storage.type.numeric.go",
+				"storage.type.rune.go",
+				"storage.type.string.go",
+				"storage.type.uintptr.go"
+			],
+			"settings": {
+				"foreground": "#b8e986"
+			}
+		},
+		{
+			"name": "Go - Struct and Interface Names",
+			"scope": [
+				"entity.name.type.struct.go",
+				"entity.name.type.interface.go"
+			],
+			"settings": {
+				"foreground": "#ff637e",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Go - Variables",
+			"scope": [
+				"variable.other.go",
+				"variable.other.declaration.go"
+			],
+			"settings": {
+				"foreground": "#f0f0f0"
+			}
+		},
+		{
+			"name": "Go - Constants",
+			"scope": [
+				"constant.language.go",
+				"constant.numeric.go",
+				"constant.other.go"
+			],
+			"settings": {
+				"foreground": "#ffb3cc"
+			}
+		},
+		{
+			"name": "Go - String and Rune",
+			"scope": [
+				"string.quoted.double.go",
+				"string.quoted.raw.go",
+				"string.quoted.rune.go"
+			],
+			"settings": {
+				"foreground": "#ffcc66"
+			}
+		},
+		{
+			"name": "Go - Format Verbs",
+			"scope": [
+				"constant.other.placeholder.go",
+				"constant.character.format.go"
+			],
+			"settings": {
+				"foreground": "#8fd460"
+			}
+		},
+		{
+			"name": "Go - Operators",
+			"scope": [
+				"keyword.operator.assignment.go",
+				"keyword.operator.arithmetic.go",
+				"keyword.operator.comparison.go",
+				"keyword.operator.logical.go",
+				"keyword.operator.address.go",
+				"keyword.operator.channel.go"
+			],
+			"settings": {
+				"foreground": "#c5c5c5"
+			}
+		},
+		{
+			"name": "Go - Pointers and References",
+			"scope": [
+				"keyword.operator.address.go"
+			],
+			"settings": {
+				"foreground": "#ff637e"
+			}
+		},
+		{
+			"name": "Go - Parameters",
+			"scope": [
+				"variable.parameter.go"
+			],
+			"settings": {
+				"foreground": "#ffb3cc"
+			}
+		},
+		{
+			"name": "Go - Struct Field",
+			"scope": [
+				"variable.other.member.go"
+			],
+			"settings": {
+				"foreground": "#f0f0f0"
+			}
+		},
+		{
+			"name": "Go - Comments",
+			"scope": [
+				"comment.line.double-slash.go",
+				"comment.block.go"
+			],
+			"settings": {
+				"foreground": "#707070",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Go - Doc Comments",
+			"scope": [
+				"comment.block.documentation.go"
+			],
+			"settings": {
+				"foreground": "#707070",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Go - Built-in Functions",
+			"scope": [
+				"support.function.builtin.go"
+			],
+			"settings": {
+				"foreground": "#8fd460"
+			}
+		},
+		{
+			"name": "Go - Defer, Go, Select",
+			"scope": [
+				"keyword.control.defer.go",
+				"keyword.control.go.go",
+				"keyword.control.select.go"
+			],
+			"settings": {
+				"foreground": "#ff637e",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Go - Punctuation",
+			"scope": [
+				"punctuation.go"
+			],
+			"settings": {
+				"foreground": "#c5c5c5"
+			}
 		}
 	],
 	"semanticTokenColors": {
