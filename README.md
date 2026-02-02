@@ -35,6 +35,7 @@
 - **Signature Pittaya Color** — Distinctive pink accents inspired by dragon fruit
 - **Built with TypeScript** — Modern, maintainable architecture with automated builds
 - **Optimized for React/TypeScript** — Enhanced syntax highlighting for modern web development
+- **Complete Go Support** — Comprehensive highlighting for Go with structs, interfaces, goroutines, and concurrency primitives
 - **Enhanced CSS Support** — Comprehensive highlighting for CSS, SCSS, Less with selectors, pseudo-classes, at-rules, variables, and functions
 - **Extended Python Support** — Complete highlighting for Python with decorators, type hints, f-strings, and more
 - **Semantic Highlighting** — Advanced token colors for more accurate syntax representation
@@ -149,7 +150,8 @@ If you want to contribute or test locally:
 - [x] Enhanced CSS/SCSS/Less syntax highlighting
 - [x] TypeScript-based build system for maintainability
 - [x] Automated theme validation and consistency checks
-- [ ] Complete syntax highlighting for other major languages (Go, Rust, Java, etc.)
+- [x] Complete Go language support with structs, interfaces, and concurrency primitives
+- [ ] Complete syntax highlighting for other major languages (Rust, Java, C++, etc.)
 - [ ] Add theme customization options
 - [ ] Create comprehensive documentation
 - [ ] Community feedback integration

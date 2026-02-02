@@ -2,7 +2,7 @@
 
 ## Theme Philosophy
 
-**Pittaya Theme** is inspired by the vibrant colors of dragon fruit (pitaya), combining the characteristic pink of the pulp with the refreshing green of the leaves and cacti. This theme has been specially optimized for **React/TypeScript** development, providing maximum readability and a pleasant visual experience during long coding sessions.
+**Pittaya Theme** is inspired by the vibrant colors of dragon fruit (pitaya), combining the characteristic pink of the pulp with the refreshing green of the leaves and cacti. This theme has been specially optimized for **React/TypeScript** and **Go** development, providing maximum readability and a pleasant visual experience during long coding sessions.
 
 The theme is now available in **two variants**:
 - **Pittaya Dark**: For low-light environments and night coding
@@ -203,6 +203,87 @@ const isEnabled = true;
 
 ---
 
+## Go Language Support
+
+### 🐹 Go-Specific Optimizations
+
+The theme includes comprehensive support for Go development with carefully chosen colors for Go's unique features:
+
+1. **Package Declarations**: Pink with italic for `package` and `import` statements
+2. **Keywords**: Pink for all Go keywords (`func`, `var`, `const`, `type`, etc.)
+3. **Function Declarations**: Green for function and method names
+4. **Types**: Light green for built-in types (`int`, `string`, `bool`, etc.)
+5. **Structs & Interfaces**: Bold pink to emphasize type definitions
+6. **Format Verbs**: Green for `Printf` format strings (`%s`, `%d`, etc.)
+7. **Concurrency Keywords**: Bold pink for `go`, `defer`, `select`, `chan`
+8. **Pointers**: Pink for `*` and `&` operators to highlight memory operations
+9. **Variables**: White/black for standard readability
+10. **Constants**: Light pink for `const` values and numeric literals
+11. **Comments**: Gray italic for both single-line and doc comments
+
+### Go Code Example
+
+```go
+package main
+//  ↑ pink (italic)
+
+import (
+// ↑ pink (italic)
+    "fmt"
+    // ↑ yellow (string)
+)
+
+// User represents a user in the system
+// ↑ gray italic (comment)
+type User struct {
+//   ↑ pink (bold)  ↑ pink
+    Name string
+    //   ↑ light green (type)
+    Age  int
+    //   ↑ light green (type)
+}
+
+func (u *User) Greet() string {
+// ↑ pink ↑ pink  ↑ green   ↑ light green
+    return fmt.Sprintf("Hello, I'm %s", u.Name)
+    //↑ pink  ↑ green          ↑ green     ↑ white
+}
+
+func main() {
+// ↑ pink ↑ green
+    user := &User{Name: "Alice", Age: 30}
+    //        ↑ pink   ↑ pink    ↑ yellow  ↑ light pink
+    
+    go processUser(user)
+    // ↑ pink (bold)
+    
+    defer cleanup()
+    // ↑ pink (bold)
+}
+
+const MaxUsers = 100
+//↑ pink  ↑ white   ↑ light pink (number)
+```
+
+### Go Feature Highlighting
+
+| Feature | Color | Purpose |
+|---------|-------|---------|
+| `package`, `import` | Pink (italic) | Import/module system |
+| `func` | Pink | Function declarations |
+| Function Names | Green | Easy identification |
+| `struct`, `interface` | Pink (bold) | Type definitions |
+| Built-in Types | Light Green | Type system |
+| `go`, `defer`, `select` | Pink (bold) | Concurrency primitives |
+| `chan` | Pink | Channel operations |
+| Pointers (`*`, `&`) | Pink | Memory operations |
+| Format Verbs | Green | Printf placeholders |
+| Variables | White/Black | Standard code |
+| Constants | Light Pink | Immutable values |
+| Comments | Gray (italic) | Documentation |
+
+---
+
 ## Comparison: Dark vs Light
 
 ### Color Adjustments for Light Theme
@@ -247,9 +328,14 @@ const isEnabled = true;
 
 1. **React Development**: Green helps quickly identify hooks and functions in both variants
 2. **TypeScript**: The differentiation between types (green tones) and values (other colors) makes the code clearer
-3. **CSS/Tailwind**: Properties in green facilitate reading inline styles
-4. **Debugging**: Distinct colors help quickly identify different elements during debugging
-5. **Environment Switching**: 
+3. **Go Development**: 
+   - Pink keywords make control flow easy to follow
+   - Green functions help identify function calls and declarations
+   - Bold pink for concurrency primitives (`go`, `defer`, `select`) draws attention to async operations
+   - Format verbs in green make string formatting more readable
+4. **CSS/Tailwind**: Properties in green facilitate reading inline styles
+5. **Debugging**: Distinct colors help quickly identify different elements during debugging
+6. **Environment Switching**: 
    - Use **Dark theme** for night coding or low-light environments
    - Use **Light theme** for daytime coding or bright offices
    - Switch easily with `Ctrl+K Ctrl+T` (Windows/Linux) or `Cmd+K Cmd+T` (Mac)
