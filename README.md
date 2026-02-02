@@ -33,14 +33,17 @@
 - **Minimalist Design** — Clean interface that lets your code shine
 - **Eye-Comfort Optimized** — Carefully crafted palettes to reduce eye strain
 - **Signature Pittaya Color** — Distinctive pink accents inspired by dragon fruit
+- **Built with TypeScript** — Modern, maintainable architecture with automated builds
 - **Optimized for React/TypeScript** — Enhanced syntax highlighting for modern web development
 - **Complete Go Support** — Comprehensive highlighting for Go with structs, interfaces, goroutines, and concurrency primitives
-- **Extended Python Support** — Comprehensive highlighting for Python with decorators, type hints, f-strings, and more
+- **Enhanced CSS Support** — Comprehensive highlighting for CSS, SCSS, Less with selectors, pseudo-classes, at-rules, variables, and functions
+- **Extended Python Support** — Complete highlighting for Python with decorators, type hints, f-strings, and more
 - **Semantic Highlighting** — Advanced token colors for more accurate syntax representation
 - **Green Accents** — Fresh green tones inspired by dragon fruit leaves
 - **Excellent Readability** — High contrast colors for better code comprehension
 - **Refined Syntax Highlighting** — Thoughtfully selected colors for different code elements
 - **Modern UI** — Updated tab styles and interface elements
+- **Automated Quality Assurance** — Build system validates themes for consistency and duplicate detection
 
 ---
 
@@ -48,29 +51,29 @@
 
 ### Dark Theme
 
-| Color | Hex | Usage |
-|-------|-----|-------|
-| ![#1a1a1a](https://via.placeholder.com/15/1a1a1a/1a1a1a.png) `Background` | `#1a1a1a` | Deep dark background |
-| ![#e8e8e8](https://via.placeholder.com/15/e8e8e8/e8e8e8.png) `Foreground` | `#e8e8e8` | Clear, readable text |
-| ![#ff637e](https://via.placeholder.com/15/ff637e/ff637e.png) `Primary` | `#ff637e` | Keywords, tags, primary elements |
-| ![#8fd460](https://via.placeholder.com/15/8fd460/8fd460.png) `Secondary` | `#8fd460` | Functions, methods, brackets |
-| ![#b8e986](https://via.placeholder.com/15/b8e986/b8e986.png) `Tertiary` | `#b8e986` | Types, attributes, props |
-| ![#ffcc66](https://via.placeholder.com/15/ffcc66/ffcc66.png) `Strings` | `#ffcc66` | String literals |
-| ![#ff9eb3](https://via.placeholder.com/15/ff9eb3/ff9eb3.png) `Constants` | `#ff9eb3` | Constants, numbers |
-| ![#707070](https://via.placeholder.com/15/707070/707070.png) `Comments` | `#707070` | Comments and documentation |
+| Color                                                                     | Hex       | Usage                            |
+| ------------------------------------------------------------------------- | --------- | -------------------------------- |
+| ![#1a1a1a](https://via.placeholder.com/15/1a1a1a/1a1a1a.png) `Background` | `#1a1a1a` | Deep dark background             |
+| ![#e8e8e8](https://via.placeholder.com/15/e8e8e8/e8e8e8.png) `Foreground` | `#e8e8e8` | Clear, readable text             |
+| ![#ff637e](https://via.placeholder.com/15/ff637e/ff637e.png) `Primary`    | `#ff637e` | Keywords, tags, primary elements |
+| ![#8fd460](https://via.placeholder.com/15/8fd460/8fd460.png) `Secondary`  | `#8fd460` | Functions, methods, brackets     |
+| ![#b8e986](https://via.placeholder.com/15/b8e986/b8e986.png) `Tertiary`   | `#b8e986` | Types, attributes, props         |
+| ![#ffcc66](https://via.placeholder.com/15/ffcc66/ffcc66.png) `Strings`    | `#ffcc66` | String literals                  |
+| ![#ff9eb3](https://via.placeholder.com/15/ff9eb3/ff9eb3.png) `Constants`  | `#ff9eb3` | Constants, numbers               |
+| ![#707070](https://via.placeholder.com/15/707070/707070.png) `Comments`   | `#707070` | Comments and documentation       |
 
 ### Light Theme
 
-| Color | Hex | Usage |
-|-------|-----|-------|
-| ![#fafafa](https://via.placeholder.com/15/fafafa/fafafa.png) `Background` | `#fafafa` | Ultra-light background |
-| ![#2a2a2a](https://via.placeholder.com/15/2a2a2a/2a2a2a.png) `Foreground` | `#2a2a2a` | Dark, readable text |
-| ![#d91656](https://via.placeholder.com/15/d91656/d91656.png) `Primary` | `#d91656` | Keywords, tags, primary elements |
-| ![#2f9e44](https://via.placeholder.com/15/2f9e44/2f9e44.png) `Secondary` | `#2f9e44` | Functions, methods, brackets |
-| ![#2b8a3e](https://via.placeholder.com/15/2b8a3e/2b8a3e.png) `Tertiary` | `#2b8a3e` | Types, attributes, props |
-| ![#d97900](https://via.placeholder.com/15/d97900/d97900.png) `Strings` | `#d97900` | String literals |
-| ![#c2255c](https://via.placeholder.com/15/c2255c/c2255c.png) `Constants` | `#c2255c` | Constants, numbers |
-| ![#909090](https://via.placeholder.com/15/909090/909090.png) `Comments` | `#909090` | Comments and documentation |
+| Color                                                                     | Hex       | Usage                            |
+| ------------------------------------------------------------------------- | --------- | -------------------------------- |
+| ![#fafafa](https://via.placeholder.com/15/fafafa/fafafa.png) `Background` | `#fafafa` | Ultra-light background           |
+| ![#2a2a2a](https://via.placeholder.com/15/2a2a2a/2a2a2a.png) `Foreground` | `#2a2a2a` | Dark, readable text              |
+| ![#d91656](https://via.placeholder.com/15/d91656/d91656.png) `Primary`    | `#d91656` | Keywords, tags, primary elements |
+| ![#2f9e44](https://via.placeholder.com/15/2f9e44/2f9e44.png) `Secondary`  | `#2f9e44` | Functions, methods, brackets     |
+| ![#2b8a3e](https://via.placeholder.com/15/2b8a3e/2b8a3e.png) `Tertiary`   | `#2b8a3e` | Types, attributes, props         |
+| ![#d97900](https://via.placeholder.com/15/d97900/d97900.png) `Strings`    | `#d97900` | String literals                  |
+| ![#c2255c](https://via.placeholder.com/15/c2255c/c2255c.png) `Constants`  | `#c2255c` | Constants, numbers               |
+| ![#909090](https://via.placeholder.com/15/909090/909090.png) `Comments`   | `#909090` | Comments and documentation       |
 
 ---
 
@@ -119,6 +122,7 @@ code --install-extension pittaya-org.pittaya-theme
 If you want to contribute or test locally:
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/pittaya-ui/pittaya-theme.git
    ```
@@ -143,6 +147,9 @@ If you want to contribute or test locally:
 - [x] Publish to VS Code Marketplace
 - [x] Create light theme variant
 - [x] Extended Python support with decorators, type hints, and f-strings
+- [x] Enhanced CSS/SCSS/Less syntax highlighting
+- [x] TypeScript-based build system for maintainability
+- [x] Automated theme validation and consistency checks
 - [x] Complete Go language support with structs, interfaces, and concurrency primitives
 - [ ] Complete syntax highlighting for other major languages (Rust, Java, C++, etc.)
 - [ ] Add theme customization options
@@ -151,14 +158,71 @@ If you want to contribute or test locally:
 
 ---
 
+## 🛠️ Development
+
+**For Contributors:**
+
+Pittaya Theme uses a modern TypeScript-based build system. Theme files are **generated automatically** from source code.
+
+### Prerequisites
+
+```bash
+npm install
+```
+
+### Building Themes
+
+```bash
+# Generate theme files
+npm run build
+
+# Validate and build
+npm run validate
+```
+
+### Project Structure
+
+```
+themes/
+├── src/
+│   ├── types.ts              # TypeScript type definitions
+│   ├── colors/
+│   │   ├── dark.ts           # Dark theme color palette
+│   │   └── light.ts          # Light theme color palette
+│   ├── tokens/
+│   │   ├── base.ts           # Base syntax tokens
+│   │   ├── css.ts            # CSS-specific tokens
+│   │   ├── typescript.ts     # TypeScript/JSX tokens
+│   │   ├── python.ts         # Python tokens
+│   │   ├── markdown.ts       # Markdown tokens
+│   │   └── json.ts           # JSON tokens
+│   ├── uiColors.ts           # VS Code UI colors
+│   ├── semanticTokens.ts     # Semantic highlighting
+│   └── build.ts              # Build script
+├── pittaya-dark.json         # Generated theme (do not edit)
+└── pittaya-light.json        # Generated theme (do not edit)
+```
+
+### Making Changes
+
+1. **Edit source files** in `themes/src/` (not JSON files directly)
+2. **Run build** with `npm run build`
+3. **Test themes** in VS Code
+4. **Submit PR** with your changes
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed documentation.
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! We'd love your help to make Pittaya Theme even better.
 
 **Ways to contribute:**
+
 - 🐛 Report bugs or issues on [GitHub Issues](https://github.com/pittaya-ui/pittaya-theme/issues)
 - 💡 Suggest new features or improvements
-- 🔨 Submit pull requests
+- 🔨 Submit pull requests (see Development section above)
 - ⭐ Leave a review on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme)
 - 📝 Improve documentation
 
