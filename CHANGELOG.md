@@ -5,6 +5,37 @@ All notable changes to Pittaya Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-02-03
+
+### Added
+
+- **New extension icon** — Beautiful new icon design created by [Lucas Correia](https://www.linkedin.com/in/lucas-fernandes-correia/)
+
+### Enhanced
+
+- **Improved Python import statement visualization** with better color differentiation:
+  - Import keywords (`import`, `from`) now use accent color with italic style (magenta/purple)
+  - Module names (e.g., `typing`, `datetime`) display in green
+  - Imported items (e.g., `List`, `Dict`, `Optional`) show in light green
+  - Import aliases (e.g., `as pd`) appear in foreground color with italic style
+  - Eliminated monochromatic red appearance for better readability
+- **Enhanced Python syntax highlighting** with comprehensive support:
+  - Enhanced function highlighting (definitions, calls, built-in functions)
+  - Better magic methods styling with italic accent color
+  - Improved class definitions with bold styling
+  - Refined keyword styling (control flow, loops, exceptions)
+  - Distinguished word operators (and, or, not, in, is) with italic styling
+  - Enhanced decorator support with accent color
+  - Better docstring styling (italic with comment color)
+  - Comprehensive f-string support with expression highlighting
+  - Improved type hints and annotations
+  - Better parameter highlighting with italic styling
+  - Distinguished self/cls parameters
+  - Enhanced constant highlighting (boolean, None, numeric)
+  - Better escape character styling
+  - Enhanced punctuation and separator styling
+  - Special support for lambda, comprehensions, and format specifiers
+
 ## [1.0.0] - 2026-02-02
 
 ### 🏗️ Major Architecture Refactor
