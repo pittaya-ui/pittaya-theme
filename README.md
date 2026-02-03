@@ -128,6 +128,7 @@ If you want to contribute or test locally:
    ```
 
 2. Copy the theme folder to your VS Code extensions directory:
+
    - **Windows**: `%USERPROFILE%\.vscode\extensions`
    - **macOS**: `~/.vscode/extensions`
    - **Linux**: `~/.vscode/extensions`
@@ -227,6 +228,21 @@ Contributions are welcome! We'd love your help to make Pittaya Theme even better
 - 📝 Improve documentation
 
 **Please read our [Contributing Guide](CONTRIBUTING.md) before submitting a PR.**
+
+---
+
+## 🎨 Credits
+
+### Design
+
+<div align="left">
+  <img src="./assets/lucas-correia-designer.jpg" alt="Lucas Correia" width="80" height="80" style="border-radius: 50%; object-fit: cover;">
+  
+  **[Lucas Correia](https://www.linkedin.com/in/lucas-fernandes-correia/)**  
+  _Designer_
+  
+  Lucas created the beautiful extension icon that represents Pittaya Theme. His excellent design work brings the visual identity of the theme to life.
+</div>
 
 ---
 
